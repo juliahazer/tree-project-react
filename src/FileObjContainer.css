@@ -1,0 +1,80 @@
+.hide {
+  display: none;
+}
+
+.indentDiv {
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.fileObjRow {
+  padding: 8px;
+  color: gray;
+}
+
+.hover {
+  cursor: pointer;
+  background: RoyalBlue;
+  color: white;
+}
+
+.selected {
+  background: green;
+  color: white;
+}
+
+.fileObjExpand,
+.fileObjName,
+.fileObjImg {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.fileObjName {
+  max-width: 250px;
+  word-break: break-all;
+}
+
+.fileObjImg {
+  vertical-align: top;
+}
+
+.filePublic {
+  background: url('./icon-sprite.png') no-repeat -29px 0;
+  width: 12px;
+  height: 14px;
+}
+
+.folderPublic {
+  background: url('./icon-sprite.png') no-repeat 0 0;
+  width: 14px;
+  height: 14px;
+}
+
+.folderPrivate {
+  background: url('./icon-sprite.png') no-repeat -14px 0;
+  width: 14px;
+  height: 14px;
+}
+
+.fileObjExpand {
+  width: 14px;
+  height: 14px;
+}
+
+.expandImgBlack {
+  background: url('./icon-sprite.png') no-repeat -58px 1px;
+}
+
+.collapseImgBlack {
+  background: url('./icon-sprite.png') no-repeat -72px 1px;
+}
+
+.expandImgWhite {
+  background: url('./icon-sprite.png') no-repeat -86px 1px;
+}
+
+.collapseImgWhite {
+  background: url('./icon-sprite.png') no-repeat -100px 1px;
+}
